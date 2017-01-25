@@ -14,10 +14,10 @@ console.assert(q.dequeue() == 'good', 'Dequeued unexpected value');
 console.assert(q.dequeue() == 'night', 'Dequeued unexpected value');
 console.assert(q.dequeue() == 'moon', 'Dequeued unexpected value');
 
-q.enqueue('by')
-q.enqueue('margret')
-q.enqueue('wise')
-q.enqueue('brown')
+q.enqueue('by');
+q.enqueue('margret');
+q.enqueue('wise');
+q.enqueue('brown');
 
 console.assert(q.dequeue() == 'good', 'Dequeued unexpected value');
 console.assert(q.dequeue() == 'night', 'Dequeued unexpected value');
